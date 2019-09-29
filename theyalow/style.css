@@ -1,0 +1,491 @@
+body {
+    width: 1300px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    height: 566px;
+    width: 1300px;
+    background-image: url(back1.png);
+}
+
+main {
+    height: 1217px;
+    width: 1300px;
+}
+
+footer {
+    height: 64px;
+    background-image: url(backFooter.png); 
+    box-shadow: 0 -3px 3px 0 rgba(0, 0, 0, 0.2);
+    width: 1300px;
+}
+
+nav {
+    margin-left: 707px;
+    margin-top: -30px;
+    background-image: url(backNav.png);
+    width: 453px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.divNav1 {
+    margin-left: 704px;
+    margin-top: -43px;
+    background-image: url(backNav2.png);
+    width: 453px;
+    height: 35px;
+}
+
+.divNav2 {
+    margin-left: 700px;
+    margin-top: -39px;
+    background-image: url(backNav3.png);
+    width: 453px;
+    height: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(155, 125, 8, 255);
+    font-family: 'Segeo WP', sans-serif;
+    padding: 5px 10px 9px 10px;
+    font-size: 19px;
+}
+
+nav a:nth-child(2) {
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-color: rgba(155, 125, 8, 255);
+}
+
+.div1h {
+    display: -webkit-flex; 
+    display: flex; 
+    margin: 87px 0 0 750px;
+    height: 121px;
+    width: 392px;
+    text-align: center;
+    font-family: Asap;
+    font-size: 63px;
+    color: white;
+}
+
+.yellow {
+    color: rgba(245, 197, 6, 255);
+}
+
+.div2m {
+    height: 212px;
+    width: 1300px;
+    background-image: url(back2.png);
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 -3px 3px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+.div2mDiv1 {
+    display: flex;
+    display: -webkit-flex;
+    border-left: solid 1px rgb(187, 187, 187);
+    border-right: solid 1px rgb(187, 187, 187);
+    width: 339px;
+    height: 212px;
+    justify-content: center;
+    margin-left: 139px;
+}
+
+.div2mDiv1Text {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    font-family: SegoeUI, sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
+    margin: -68px 0 0 -668px;
+    padding-left: 5px;
+}
+
+.betterDesign {
+    margin: 61px 0 0 -7px;
+}
+
+.div2mDiv2 {
+    display: flex;
+    display: -webkit-flex;
+    border-left: solid 1px rgb(187, 187, 187);
+    border-right: solid 1px rgb(187, 187, 187);
+    width: 339px;
+    height: 212px;
+    justify-content: center;
+    margin: -180px 0 0 479px;
+}
+
+.div2mDiv2Text {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    font-family: SegoeUI, sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
+    margin-top: -68px;
+    padding-left: 5px;
+}
+
+.customise {
+    margin: 41px 0 0 12px;
+}
+
+.div2mDiv3 {
+    display: flex;
+    display: -webkit-flex;
+    border-left: solid 1px rgb(187, 187, 187);
+    border-right: solid 1px rgb(187, 187, 187);
+    width: 339px;
+    height: 212px;
+    justify-content: center;
+    margin: -180px 0 0 819px;
+}
+
+.div2mDiv3Text {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    font-family: SegoeUI, sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
+    margin: -68px 0 0 660px;
+    padding-left: 5px;
+}
+
+.itsFree {
+    margin: 51px 0 0 -18px;
+}
+
+.div3m {
+    height: 509px;
+    width: 1300px;
+    background-image: url(back3.png);
+}
+
+.div3mText {
+    display: -webkit-flex; 
+    display: flex; 
+    font-family: PTSans;
+    font-size: 37px;
+    color: rgba(255, 255, 255, 255);
+    padding-left: 141px;
+    padding-top: 31px;
+    word-spacing: 1px;
+}
+
+.div3mDiv1 {
+    width: 311px;
+    height: 217px;
+    background-image: url(back3div1.png);
+    margin-top: 31px;
+    margin-left: 139px;
+    font-family: 'Segeo WP', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: left;
+    padding: 15px 0 0 30px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.div3mDiv1Plus {
+    display: -webkit-flex; 
+    display: flex; 
+    margin-top: 4px;
+    margin-left: 285px;
+}
+
+.div3mDiv2 {
+    height: 232px;
+    width: 315px;
+    background-image: url(vidos.png);
+    margin-top: -232px;
+    margin-left: 480px;
+}
+
+.div3mDiv2Play {
+    display: -webkit-flex; 
+    display: flex; 
+    padding-left: 130px;
+    padding-top: 94px;
+}
+
+.div3mDiv3 {
+    display: -webkit-flex; 
+    display: flex; 
+    height: 233px;
+    width: 329px;
+    background:  url(backtwit.png);
+    margin-top: -232px;
+    margin-left: 830px;
+    text-align: right;
+}
+
+.twit22 {
+    display: -webkit-flex; 
+    display: flex; 
+    font-family: 'Segeo WP', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 255);
+    margin-top: 11px;
+    margin-left: 37px;
+}
+
+.twit {
+    margin-left: 83px;
+    margin-top: 59px;
+}
+
+.twitPlus {
+    margin-top: 205px;
+}
+
+.div3mPolz {
+    display: -webkit-flex; 
+    display: flex;
+    margin-left: 213px;
+    margin-top: 42px;
+}
+
+.div3mDiv4 {
+    display: -webkit-flex; 
+    display: flex;
+    height: 89px;
+    width: 83px;
+    background-image: url(backapril.png);
+    margin: -3px 0 0 139px;
+    font-family: SegoeUI;
+    font-size: 50px;
+    color:white;
+    font-weight: bold; 
+    text-align: center;
+    padding-left: 30px;
+}
+
+.april {
+    font-weight: normal;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 58px;
+    margin-left: -55px;
+    color: rgba(178, 101, 41, 255);
+}
+
+.div4m {
+    height: 499px;
+    width: 1300px;
+    background-image: url(back4.png);
+    text-align: center;
+    padding-top: 37px;
+    word-spacing: 2px;
+}
+
+.div4mText {
+    font-family: PTSans , sans-serif;
+    color: rgba(245, 197, 6, 255);
+    font-size: 43px;
+}
+
+.div4mDiv1 {
+    display: -webkit-flex; 
+    display: flex;
+    text-align: left;
+    font-family: PTSans , sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    color: rgba(169, 169, 167, 255);
+    width: 420px;
+    margin: 65px 0 0 770px;
+}
+
+.div4mPhone {
+    display: flex;
+    display: -webkit-flex;
+    margin: -150px 0 0 659px;
+}
+
+.div4mTablet {
+    display: flex;
+    display: -webkit-flex;
+    margin: -173px 0 0 505px;
+}
+
+.div4mComp {
+    display: flex;
+    display: -webkit-flex;
+    margin: -215px 0 0 158px;
+}
+
+.div4mFree {
+    display: flex;
+    display: -webkit-flex;
+    margin: -297px 0 0 138px;
+}
+
+.div4mFreeText {
+    display: flex;
+    display: -webkit-flex;
+    text-align: center;
+    font-family: PTSansNarrow;
+    font-size: 20px;
+    margin: 46px 0 0 -110px;
+    word-spacing: -1px;
+    color: rgba(255, 255, 255, 255);
+}
+
+li {
+    list-style-image: url(li.png); 
+    padding: 0px 0 20px 12px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 255);
+    display: -webkit-flex; 
+    display: flex;  
+    margin: -120px 0px 0px -3px;
+    padding: 60px 0px 0px 232px;
+    font-size: 41.04912px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px black;
+}
+
+.logo {
+    display: -webkit-flex; 
+    display: flex;  
+    padding-top: 28px;
+    padding-left: 140px;
+}
+
+.logoFooter {
+    display: flex;
+    display: -webkit-flex;
+    padding: 6px 0 0 140px;
+}
+
+.logoFooter img {
+    width: 55px;
+    height: 55px;
+}
+
+.logoFooterText {
+    font-family: 'Lucida Sans', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    margin: 10px 0 0 3px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.leftCur {
+    display: -webkit-flex; 
+    display: flex; 
+    margin-top: -7px;
+}
+
+.rightCur {
+    display: -webkit-flex; 
+    display: flex; 
+    margin-top: -55px;
+    margin-left: 1268px;
+}
+
+.videoHeader {
+    height: 327px;
+    width: 549px;
+    margin-left: 150px;
+    margin-top: -190px;
+}
+
+.videoPoster {
+    background-image: url(post2.png);
+    width: 549px;
+    height: 327px;
+    z-index: 2;
+    margin-left: 150px;
+    margin-top: -331px; 
+    position: relative;
+}
+
+.playHeader {
+    display: inline-block;
+    width: 70px;
+    margin: 130px 0 0 240px;
+}
+
+.miniPlayHeader {
+    display: flex;
+    width: 30px;
+    margin: 77px 0 0 30px;
+}
+
+.sringHeader {
+    display: flex;
+    margin: -19px 0 0 83px;
+}
+
+.soundHeader {
+    display: flex;
+    margin: -13px 0 0 515px; 
+}
+
+@font-face {
+    font-family: "Lucida Sans";
+    src: url(Lucida-Sans-Italic.ttf) format("truetype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Segeo WP";
+    src: url("ofont.ru_Segoe WP.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Segeo WP";
+    src: url("ofont.ru_Segoe WP Light.ttf") format("truetype");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url("Asapregular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PTSans";
+    src: url("ptsans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PTSansNarrow";
+    src: url("ptsansnarrowbold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SegoeUI";
+    src: url("SegoeUI.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SegoeUI";
+    src: url("SegoeUI-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SegoeUI";
+    src: url("SegoeUI-Light.ttf") format("truetype");
+    font-weight: lighter;
+}
